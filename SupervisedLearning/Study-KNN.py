@@ -13,7 +13,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report,confusion_matrix
 
-class SupervisedLearning:
+class KNeighbors:
 	def __init__(self):
 		self.number = None
 		self.names = None
@@ -125,7 +125,7 @@ lebar_petal = input("berapa lebar petal : ")
 # predict(panjang_petal, lebar_sepal, panjang_petal, lebar_petal)
 # ValueError("https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data")
 # VisualizationClassific(2)
-obj = SupervisedLearning()
+obj = Kneighbors()
 obj.ValueError("https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data")
 print(obj.file)
 obj.Explanation(panjang_petal, lebar_sepal, panjang_petal, lebar_petal)
